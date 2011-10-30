@@ -1,7 +1,8 @@
 Cheats
 =======
 
-Because you want to refer to your shortcuts not something from internet.
+My personal collection of cheatsheets
+Because I want to refer to your shortcuts not something from internet.
 
 
 I wanted to see my cheatsheets as a unix man page in the terminal. Ronn
@@ -9,7 +10,7 @@ I wanted to see my cheatsheets as a unix man page in the terminal. Ronn
 Markdown format.
 
 
-## ZSH configuation for my 'cheat' command and autocomplete 
+### ZSH configuation for my 'cheat' command and autocomplete 
 
  ```bash
   compctl -K _cheats cheat
@@ -26,3 +27,8 @@ Markdown format.
     fi
   }
 ```
+
+### Usage
+
+ cheat git
+ cheat open git
