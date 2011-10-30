@@ -1,10 +1,35 @@
-Git(5) 
-===============================
+## STASHING:
 
-STASHING:
+  * list stash:
+    <git stash list>
 
-  * another one:
-    The definition may span
+  * apply stash:
+    <git stash apply stash@{2}>
 
-  * `--somearg`=<VALUE>:
-    We can do that too.
+  * create branch from stash:
+    <git stash branch testchanges>
+
+## REMOTES:
+
+  * Show remotes:
+    <git remote show>
+
+  * Remote Info:
+    <git remote show origin>
+ 
+  * Remote branch:
+    *  create branch:
+    <git push origin newfeature>
+
+    *  delete branch:
+    <git push origin :heads/new_feature_name>
+
+## GITIGNORE:
+
+  * Refresh Cache:
+    <git rm -r --cached . >
+
+## BRANCHING:
+
+  * Track/Checkout locally:
+    <git checkout --track origin/serverfix>
