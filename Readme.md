@@ -9,9 +9,9 @@ I wanted to see my cheatsheets as a unix man page in the terminal. Ronn
 Markdown format.
 
 
-## ZSH configuation for my 'cheat' command and autocomplete of all the
-cheats i've created
+## ZSH configuation for my 'cheat' command and autocomplete 
 
+ ```bash
   compctl -K _cheats cheat
 
   _cheats(){
@@ -25,4 +25,4 @@ cheats i've created
       vi ~/code/cheats/$2.ronn
     fi
   }
-
+```
