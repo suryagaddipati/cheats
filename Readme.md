@@ -2,7 +2,7 @@ Cheats
 =======
 
 My personal collection of cheatsheets
-Because I want to refer to your shortcuts not something from internet.
+Because I want to refer to my cheats not something from internet.
 
 
 I wanted to see my cheatsheets as a unix man page in the terminal. Ronn
@@ -30,5 +30,5 @@ Markdown format.
 
 ### Usage
 
- cheat git
+ cheat git , 
  cheat open git
