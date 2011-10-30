@@ -1,0 +1,10 @@
+Git(5) 
+===============================
+
+STASHING:
+
+  * another one:
+    The definition may span
+
+  * `--somearg`=<VALUE>:
+    We can do that too.
